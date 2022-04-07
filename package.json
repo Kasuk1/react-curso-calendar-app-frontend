@@ -6,9 +6,19 @@
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-big-calendar": "^0.40.0",
+    "react-datetime-picker": "^3.5.0",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.14.4",
+    "react-redux": "^7.2.7",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.4.1",
+    "sweetalert2": "^11.4.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2"
   }
 }
